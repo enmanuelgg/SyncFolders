@@ -22,29 +22,5 @@ namespace SyncFolders.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string SourcePath {
-            get {
-                return ((string)(this["SourcePath"]));
-            }
-            set {
-                this["SourcePath"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string ReplicaPath {
-            get {
-                return ((string)(this["ReplicaPath"]));
-            }
-            set {
-                this["ReplicaPath"] = value;
-            }
-        }
     }
 }
