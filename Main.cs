@@ -10,7 +10,7 @@ namespace SyncFolders
     {
         Logger _logger;
         SyncFunctions _syncFunctions;
-        
+
         private Timer _timer;
         public Main(string sourceFolder, string replicaFolder, string logFolder, int interval)
         {
@@ -101,11 +101,12 @@ namespace SyncFolders
                 HideShowForm();
                 notifyIcon.ShowBalloonTip(500);
                 _timer.Start();
-            } else
+            }
+            else
             {
                 MessageBox.Show("Please select a source and replica folder!");
             }
-            
+
         }
 
         private void button_StopSync_Click(object sender, EventArgs e)
@@ -147,6 +148,16 @@ namespace SyncFolders
         private void button_SelectReplica_Click(object sender, EventArgs e)
         {
             SetPath(false);
+        }
+
+        private void Main_Shown(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(_syncFunctions._sourceFolder) && !string.IsNullOrEmpty(_syncFunctions._replicaFolder))
+            {
+                HideShowForm();
+                notifyIcon.ShowBalloonTip(500);
+                _timer.Start();
+            }
         }
     }
 }

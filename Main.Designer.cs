@@ -176,6 +176,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Sync Folders";
             FormClosing += Form1_FormClosing;
+            Shown += Main_Shown;
             notifyIconMenu.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
