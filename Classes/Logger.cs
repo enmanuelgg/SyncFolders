@@ -19,7 +19,7 @@ namespace SyncFolders.Classes
             }
             else
             {
-                _logFile = Path.Combine(Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "SyncFolders","log.txt");
+                _logFile = Path.Combine(Environment.GetFolderPath(System.Environment.SpecialFolder.LocalApplicationData), "SyncFolders", "Logs","log.txt");
             }
         }
 
