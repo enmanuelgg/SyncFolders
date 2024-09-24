@@ -68,6 +68,7 @@
             textbox_SourcePath.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             textbox_SourcePath.Location = new Point(12, 23);
             textbox_SourcePath.Name = "textbox_SourcePath";
+            textbox_SourcePath.ReadOnly = true;
             textbox_SourcePath.Size = new Size(389, 23);
             textbox_SourcePath.TabIndex = 2;
             // 
@@ -76,6 +77,7 @@
             textbox_ReplicaPath.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             textbox_ReplicaPath.Location = new Point(12, 73);
             textbox_ReplicaPath.Name = "textbox_ReplicaPath";
+            textbox_ReplicaPath.ReadOnly = true;
             textbox_ReplicaPath.Size = new Size(389, 23);
             textbox_ReplicaPath.TabIndex = 3;
             // 
