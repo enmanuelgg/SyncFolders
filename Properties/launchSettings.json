@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SyncFolders": {
+      "commandName": "Project",
+      "commandLineArgs": "source=\"E:\\Transferencias\\Deriv\\Source\" replica=\"E:\\Transferencias\\Deriv\\Replica\" log=\"E:\\Transferencias\\Deriv\" interval=10000"
+    }
+  }
+}
