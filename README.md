@@ -33,3 +33,7 @@ The program logs all operations (creation, copying, and removal) in a log.txt fi
 To close the application, use the system tray icon for easy access and control:
 
 ![systray](https://github.com/user-attachments/assets/e42a1d8c-4564-4af1-8762-ee681ee61a24)
+
+
+####   **Contact**
+José Enmanuel Gonçalves - https://www.linkedin.com/in/enmanuelgg/ - 1enmanueljose@gmail.com
